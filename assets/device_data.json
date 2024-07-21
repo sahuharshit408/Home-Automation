@@ -1,0 +1,89 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "name": "Light",
+      "status": "on",
+      "type": "switch",
+      "readings": []
+    },
+    {
+      "id": 2,
+      "name": "Fan",
+      "status": "on",
+      "type": "switch",
+      "readings": []
+    },
+    {
+      "id": 3,
+      "name": "Water Meter",
+      "status": "active",
+      "type": "sensor",
+      "readings": [
+        {
+          "timestamp": "2024-07-21T10:00:00Z",
+          "value": 123.45
+        },
+        {
+          "timestamp": "2024-07-21T11:00:00Z",
+          "value": 124
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Gas Meter",
+      "status": "active",
+      "type": "sensor",
+      "readings": [
+        {
+          "timestamp": "2024-07-21T10:00:00Z",
+          "value": 78.9
+        },
+        {
+          "timestamp": "2024-07-21T11:00:00Z",
+          "value": 79.5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Thermostat",
+      "status": "on",
+      "type": "sensor",
+      "readings": [
+        {
+          "timestamp": "2024-07-21T10:00:00Z",
+          "temperature": 22.5,
+          "humidity": 40
+        },
+        {
+          "timestamp": "2024-07-21T11:00:00Z",
+          "temperature": 23,
+          "humidity": 42
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Air Conditioner",
+      "status": "off",
+      "type": "switch",
+      "readings": []
+    },
+    {
+      "id": 7,
+      "name": "Heater",
+      "status": "on",
+      "type": "switch",
+      "readings": []
+    },
+    {
+      "id": 8,
+      "name": "TV",
+      "status": "off",
+      "type": "switch",
+      "readings": []
+    }
+  ]
+}
